@@ -1,23 +1,23 @@
 # 🚀 Nexum API
 
-API REST desenvolvida em **ASP.NET Core** para gerenciamento de contratos, criada como parte do meu processo de formação **Full Stack com foco em C#**.
+REST API built with **ASP.NET Core** for contract management, created as part of my **Full Stack learning journey focused on C#**.
 
-O projeto foi pensado para ser simples, organizado e evolutivo, servindo tanto como estudo prático quanto como base para futuras versões mais completas.
-
----
-
-## 📌 Funcionalidades
-
-- ✅ Cadastro de contratos
-- ✅ Listagem de contratos
-- ✅ Consulta por ID
-- ✅ Atualização de contratos
-- ✅ Remoção de contratos
-- ✅ Documentação via Swagger
+The project was designed to be simple, well-structured, and scalable, serving both as a practical study project and as a foundation for future, more complete versions.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📌 Features
+
+- ✅ Contract creation
+- ✅ Contract listing
+- ✅ Retrieve contract by ID
+- ✅ Update contracts
+- ✅ Delete contracts
+- ✅ API documentation with Swagger
+
+---
+
+## 🛠️ Technologies Used
 
 - **C#**
 - **.NET 8**
@@ -27,11 +27,14 @@ O projeto foi pensado para ser simples, organizado e evolutivo, servindo tanto c
 - **Swagger / OpenAPI**
 - **Git & GitHub**
 
-📬 Endpoints Principais
-| Método | Rota                  | Descrição             |
-| ------ | --------------------- | --------------------- |
-| GET    | `/api/contracts`      | Lista contratos       |
-| GET    | `/api/contracts/{id}` | Busca contrato por ID |
-| POST   | `/api/contracts`      | Cria novo contrato    |
-| PUT    | `/api/contracts/{id}` | Atualiza contrato     |
-| DELETE | `/api/contracts/{id}` | Remove contrato       |
+---
+
+## 📬 Main Endpoints
+
+| Method | Route                 | Description              |
+|------|----------------------|--------------------------|
+| GET  | `/api/contracts`      | List all contracts       |
+| GET  | `/api/contracts/{id}` | Get contract by ID       |
+| POST | `/api/contracts`      | Create a new contract    |
+| PUT  | `/api/contracts/{id}` | Update an existing contract |
+| DELETE | `/api/contracts/{id}` | Delete a contract        |
