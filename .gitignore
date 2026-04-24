@@ -24,6 +24,7 @@ publish/
 # Configurações sensíveis
 appsettings.Development.json
 appsettings.Production.json
+appsettings.json
 
 # NuGet
 *.nupkg
