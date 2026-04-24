@@ -1,0 +1,38 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Publicação
+publish/
+*.pubxml
+*.pubxml.user
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Configurações sensíveis
+appsettings.Development.json
+appsettings.Production.json
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Testes
+TestResults/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
